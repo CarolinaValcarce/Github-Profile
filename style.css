@@ -1,0 +1,83 @@
+/*@import url(""https://fonts.googleapis.com/css?family=Mystery+Quest"");*/
+*{
+	box-sizing: border-box;
+	margin:0;
+	
+}
+body{
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 26%, rgba(23,9,121,0.9396709367340687) 50%, rgba(0,20,255,1) 100%);
+	padding: 2rem;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Mv Boli','Segoe Print', sans-serif; 
+	font-size: 1.3rem;
+
+}
+.searcher{
+	background:#fff;
+	/*color: rgba(23,9,121,0.9396709367340687);*/
+	margin:2rem;
+	padding: 0.6rem;
+	font-size: 1rem;
+}
+
+input, input::placeholder{
+	color: rgba(0,10,240,1);
+
+}
+
+img{
+	border: 5px solid  rgba(2,0,36,1) ;
+	width:10rem;
+	height:10rem;
+	border-radius: 50%;
+
+}
+.container{
+	background:rgba(0,10,240,1);
+	color:rgba(2,0,36,1) ;
+	display:flex;
+	/*justify-content: space-between;*/
+	box-shadow: 0 0 5px 10px;
+	border-radius: 1rem;
+	max-width: 800px;
+	padding:2.5rem;
+}
+h4{
+	font-size:1.7rem;
+}
+
+.info {
+	margin:1.0rem;
+	color:#fff;
+}
+.info ul{
+	max-width:400px;*/
+	display:flex;
+	/*flex-direction: column;*/
+	justify-content: space-between;
+	
+}
+.info ul li {
+    display: flex;
+    /*align-items: center;*/
+    color:#fff;
+    font-size:0.8rem;
+    margin-right:0.2rem;
+    margin-left: 0.2rem;
+}
+
+.repo {
+    background-color: rgba(23,9,121,0.9396709367340687);
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+}
